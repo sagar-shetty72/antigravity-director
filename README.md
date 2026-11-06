@@ -6,8 +6,8 @@
 [![Frontier Director: Gemini](https://img.shields.io/badge/Director-Gemini_Flash--Lite-orange.svg)](https://ai.google.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-### ⚡ 1. Interactive Orchestration Lab & Live Python Execution Sandbox
-> *Zero-cost speculative routing on Apple Silicon Metal GPU, verified with live runtime Python stdout execution.*
+### ⚡ 1. Hybrid Orchestration Lab & Live Python Execution Sandbox
+> *Frontier Director plans the task while Local Specialist (Qwen-2.5-Coder 7B) executes on Apple Silicon Metal GPU, verified with live runtime Python stdout execution.*
 
 <p align="center">
   <img src="assets/dashboard_run.png" alt="Antigravity Director Interactive Lab & Execution Terminal" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
