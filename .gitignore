@@ -1,0 +1,23 @@
+# Secrets & API Keys
+.env
+*.env
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Logs & Temp
+*.log
+scratch/
