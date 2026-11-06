@@ -6,12 +6,20 @@
 [![Frontier Director: Gemini](https://img.shields.io/badge/Director-Gemini_Flash--Lite-orange.svg)](https://ai.google.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-<p align="center">
-  <img src="assets/dashboard_run.png" alt="Antigravity Director Interactive Lab" width="950" style="border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.4);" />
-</p>
+### ⚡ 1. Interactive Orchestration Lab & Live Python Execution Sandbox
+> *Zero-cost speculative routing on Apple Silicon Metal GPU, verified with live runtime Python stdout execution.*
 
 <p align="center">
-  <img src="assets/dashboard_live.png" alt="Pareto Frontier and Telemetry Analytics" width="950" style="border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.4);" />
+  <img src="assets/dashboard_run.png" alt="Antigravity Director Interactive Lab & Execution Terminal" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
+</p>
+
+---
+
+### 📊 2. Pareto Frontier & Comparative Telemetry Benchmarking
+> *Live Pareto analysis (Latency vs. Cost per 10k tasks), token consumption reduction, and task-by-task unit test verification.*
+
+<p align="center">
+  <img src="assets/dashboard_live.png" alt="Pareto Frontier and Telemetry Analytics" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
 </p>
 
 ---
@@ -23,41 +31,6 @@ Running 100% of your AI workloads through Frontier Cloud APIs (Gemini, Claude, G
 It decouples **high-level architectural planning and verification** (handled by Frontier models) from **bulk token payload generation** (handled locally on Apple Silicon Metal GPU at \$0 cost). 
 
 With **Adaptive Speculative Routing**, tasks run zero-cost on local specialists first and escalate to the Frontier Director *only if deterministic unit tests fail*—achieving **100% test accuracy while reducing cloud token spend by 50% to 100%**.
-
----
-
-### 📐 Architecture Overview
-```
-                           ┌────────────────────────┐
-                           │   Task / Problem Spec  │
-                           └───────────┬────────────┘
-                                       ▼
-                          ┌─────────────────────────┐
-                          │    Director (Frontier)  │
-                          │   Compact Task Planning │
-                          └────────────┬────────────┘
-                                       │ Specialized Instruction
-                                       ▼
-                          ┌─────────────────────────┐
-                          │   Local Worker (Ollama) │
-                          │  Heavy Payload Gen (MLX)│
-                          └────────────┬────────────┘
-                                       ▼
-                          ┌─────────────────────────┐
-                          │    Verification Engine  │
-                          │ Deterministic / Judge   │
-                          └──────┬───────────┬──────┘
-                                 │ Pass      │ Fail
-                                 │           ▼
-                                 │      ┌───────────────────────┐
-                                 │      │ Fallback to Frontier  │
-                                 │      └───────────┬───────────┘
-                                 ▼                  │
-                          ┌─────────────────────────▼┐
-                          │    Final Synthesis &     │
-                          │   Telemetry Aggregator   │
-                          └──────────────────────────┘
-```
 
 ---
 
