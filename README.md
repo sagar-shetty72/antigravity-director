@@ -3,7 +3,11 @@
 A hybrid AI architecture and benchmarking framework that couples a **Frontier Model** (acting as Director, Planner, and Judge) with **local MLX/Metal-accelerated Ollama models** (acting as high-throughput task workers) to optimize token savings, latency, cost, and accuracy.
 
 <p align="center">
-  <img src="assets/dashboard_preview.png" alt="Antigravity Director Web Dashboard" width="900" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.3);" />
+  <img src="assets/dashboard_run.png" alt="Antigravity Director Interactive Lab" width="950" style="border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.4);" />
+</p>
+
+<p align="center">
+  <img src="assets/dashboard_live.png" alt="Pareto Frontier and Telemetry Analytics" width="950" style="border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.4);" />
 </p>
 
 ```
